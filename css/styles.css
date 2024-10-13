@@ -122,6 +122,7 @@ header nav li:after{
     height: 3px;
     margin-top: 25px;
     transition: 0.4s;
+
 }
 
 header nav li:hover:after{

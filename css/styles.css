@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+         url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -77,7 +90,7 @@ header nav ul{
 }
 
 header nav a{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -88,7 +101,7 @@ header.logo{
 }
 
 header .login{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -144,7 +157,7 @@ main .banner article{
 }
 
 main article h3{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -156,7 +169,7 @@ main article h3{
 }
 
 main article h1{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
@@ -172,7 +185,7 @@ main article span{
 
 main article p{
 
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-size: 14px;
     line-height: 171%;
     color: #727272;
@@ -181,7 +194,7 @@ main article p{
 
 }
 .ShopNow{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -200,7 +213,6 @@ main article p{
 .products .container{
     display: flex;
     justify-content: space-between;
-
 }
 
 .left_side{
@@ -210,7 +222,7 @@ main article p{
     background: #fbfbfb;
 }
 .left_side h4{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
@@ -227,7 +239,7 @@ main article p{
 }
 
 .products .left_side li a{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-size: 15px;
     line-height: 267%;
     font-weight: 400;
@@ -256,7 +268,7 @@ main article p{
 }
 .products .products_sort li a {
     margin-top: 40px;
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 15px;
     line-height: 107%;
@@ -283,7 +295,7 @@ main article p{
 }
 
 .products_sort .Sort_by{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 400;
     margin-top: 36px;
     font-size: 15px;
@@ -316,7 +328,7 @@ main article p{
 .main_product_items article .Link-item{
     margin-top: 12px;
     text-decoration: none;
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -325,7 +337,7 @@ main article p{
 }
 
 .main_product_items article p{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
@@ -358,4 +370,165 @@ main article p{
     content: "";
     color: white;
     background-color: #46a358;
+}
+
+.numbers_list ul li a:focus svg path{
+ stroke:white ;
+}
+
+.find_more{
+    padding-top: 69px;
+    padding-bottom: 138px;
+}
+
+.find_more .container{
+    display: flex;
+    justify-content: space-between ;
+    gap: 28px;
+}
+
+.find_more .left{
+    display: flex;
+    align-items: center;
+
+}
+
+.find_more .right{
+    display: flex;
+    align-items: center;
+
+}
+
+.find_more .content{
+    background: #fbfbfb;
+    padding:32px 9px 51px 0 ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content .content_title{
+    font-family: 'cera_proregular';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+}
+.content .content_text {
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    padding-bottom: 25px ;
+}
+
+.find_more .content .link_find{
+    font-family: 'cera_proregular';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    background: #46a358;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 27px 10px 28px;
+    text-align: center;
+    align-self: flex-end;
+}
+.content a:after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background-image: url(../images/Arrow_Right.svg);
+    margin-left: 2px;
+}
+.blog_posts{
+    padding-bottom: 68px;
+}
+.four_pictures{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_posts h4{
+    font-family: 'cera_proregular';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}
+.blog_posts .main_p{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 35px;
+}
+.four_pictures article{
+    max-width: 268px;
+    background: #fbfbfb;
+}
+
+.four_pictures article .p1{
+    font-family: 'cera_proregular';
+    margin: 8px 20px 4px 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+}
+.four_pictures article .mini_title{
+    font-family: 'cera_proregular';
+    margin: 0 40px 4px 13px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+}
+.four_pictures article .p2{
+    font-family: 'cera_proregular';
+    margin: 0 13px 4px 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+}
+.four_pictures article a{
+    font-family: 'cera_proregular';
+    margin: 0 3px 13px 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+.four_pictures article a:after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/Arrow-Right.svg);
+    margin-top: 3px;
+    transition: 0.2s;
+}
+
+.four_pictures article a:hover{
+    color: #46a358;
+}
+
+.four_pictures article:hover a:after{
+    background-image: url(../images/arrow_white.svg);
 }

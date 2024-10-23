@@ -327,9 +327,13 @@ main article p{
 }
 
 .main_product_items article {
-    max-width: 250px;
+    max-width: 258px;
     border-top: solid 1px transparent;
     transition: 0.2s;
+}
+.main_product_items article:hover{
+    border-top: solid 1px #46a358; 
+    width: 100%;
 }
 
 .main_product_items article .Link-item{
@@ -342,10 +346,6 @@ main article p{
     color: #3d3d3d;
     mix-blend-mode: multiply;
    
-}
-
-.main_product_items article:hover{
-    border-top: solid 1px  #46a358; 
 }
 
 .main_product_items article{
@@ -505,6 +505,7 @@ main article p{
     background-image: url(../images/Arrow_Right.svg);
     margin-left: 2px;
 }
+
 .blog_posts{
     padding-bottom: 68px;
 }

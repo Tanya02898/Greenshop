@@ -69,6 +69,10 @@ a{
 
 header{
     padding-top: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
 }
 
 .container{
@@ -148,7 +152,7 @@ main{
 main .banner .container{
     display: flex;
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
-
+    padding-top: 100px;
 }
 
 main .banner article{
@@ -330,6 +334,9 @@ main article p{
     max-width: 258px;
     border-top: solid 1px transparent;
     transition: 0.2s;
+    position: relative;
+    transition: 0.2s;
+    justify-content: space-between;
 }
 .main_product_items article:hover{
     border-top: solid 1px #46a358; 
@@ -346,10 +353,6 @@ main article p{
     color: #3d3d3d;
     mix-blend-mode: multiply;
    
-}
-
-.main_product_items article{
-    position: relative;
 }
 
 .main_product_items article .sale{
@@ -370,11 +373,21 @@ main article p{
 }
 .main_product_items article .icons{
     display: flex;
-   
+    left:72px;
     gap: 27px;
     position: absolute;
     top: 266px;
-    left: 73px;
+    opacity: 0%;
+    
+}
+.main_product_items article:hover .icons{
+    display: flex;
+    gap: 27px;
+    position: absolute;
+    top: 266px;
+    opacity: 100%;
+    justify-self: center;
+    
 }
 
 .main_product_items article p{

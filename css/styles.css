@@ -145,6 +145,110 @@ header nav li:after{
 header nav li:hover:after{
     width: 100%;
 }
+
+header .second_menu{
+    position: absolute;
+    
+    flex-direction: column;
+    gap: 0;
+    padding-top: 40px;
+    display: none;
+}
+
+header .second_menu li{
+    background: #edf6ee;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
+header .second_menu li a{
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-top: 9px;
+    min-width: 188px;
+}
+
+header .second_menu li:hover a{
+    background: #1a712a;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+header nav .second_menu li:after{
+    display: none;
+}
+
+header nav .second_menu li a{
+    font-weight: normal;
+}
+
+header nav .drop_down{
+    position: relative;
+}
+
+header nav .drop_down:hover .second_menu{
+    display: flex;
+}
+
+header nav  .drop_down_2 {
+    position: relative;
+}
+
+header nav .drop_down_2 .arrow_manu:after{
+    background-image: url(../images/Frame_arrow.svg);
+    content:"";
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    margin-left: 50px;
+}
+
+header nav .drop_down_2:hover .arrow_manu:after{
+    background-image: url(../images/Frame_arrow\ copy.svg);
+    transform: rotate(180deg);
+    content:"";
+    width: 7px;
+    height: 10px;
+}
+
+header nav .third_menu{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: -102px;
+    gap: 0;
+    padding-left:190px;
+    min-width: 368px;
+
+}
+
+header .third_menu a{
+    background: #edf6ee !important;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-top: 9px ;
+    font-family: 'cera_proregular' !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #3d3d3d !important;
+}
+
+header .third_menu li:hover a{
+ 
+    background: #1a712a !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #fff !important; 
+
+}
+
+header nav .drop_down_2:hover .third_menu{
+    display: flex;
+}
+
 main{
     max-width: 1200px;
     margin: auto;
